@@ -79,6 +79,7 @@ And `MemoryPool` contains the message that how many units does a `MemoryBlock` c
 A `MemoryPool` contains a series of `MemoryBlock`s (only have one `MemoryBlock` pointed by `pBlock` when initiated), and each `MemoryBlock` contains a number of `MemoryUnit`s. 
 
 
+![Alt text](2.bmp)
 
 ### 2. `MemoryBlock`
 
