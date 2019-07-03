@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Dynamic Module** is the key part of BOX2D to build up a new game. 
+**Dynamic Module** is the key part of BOX2D to build up a new game. 
 
 ***Common***, ***collision*** and ***particle*** modules provide the basis, while ***dynamic*** module contains classes and functions as the user interface and undertake the real-time computing tasks, an dynamic module is based on ***Common*** and ***Collision*** module.
 
