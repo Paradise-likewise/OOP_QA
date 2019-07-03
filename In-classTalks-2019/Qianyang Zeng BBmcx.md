@@ -7,9 +7,8 @@ BBmcx is an algorithm improved from MaxCLQ algorithm. MaxCLQ use Infra-chromatic
 So the important proposition in MaxCLQ algorithm is: the upper-bound of clique number is **chromatic number minus the number of disjoint inconsistent subsets**. This upper-bound is called Infra-chromatic bound.
 
 We can first look at a simple example (5-loop graph) to illustrate this proposition. 
-
-![1](.\1.bmp)
-![Alt text](./1.bmp)
+ 
+![Alt text](1.bmp)
 
 In this 5-loop graph, the vertex in the graph are divided into three different color sets (independent sets). It can be seen that the max clique must contain vertex 5 (yellow set), and it can only contains either point 4 (blue set) or point 1 (green set) but cannot contain both. So, the upper bound of the max clique here is going to be 2, which is **chromatic number 3 minus 1**, and this 1 is going to be **the number of inconsistent subsets**.
 
